@@ -12,9 +12,10 @@ namespace JobPortal
         // For more information on Bundling, visit https://go.microsoft.com/fwlink/?LinkID=303951
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/required").Include(
-                    "~/Scripts/jquery-3.3.1.js",
-                    "~/Scripts/navbar.js"
+            bundles.Add(new ScriptBundle("~/bundles/signup").Include(
+                    "~/Scripts/jquery-3.3.1.slim.min.js",
+                    "~/Scripts/bootstrap.bundle.min.js",
+                    "~/Scripts/signup.js"
                     ));
         }
     }
